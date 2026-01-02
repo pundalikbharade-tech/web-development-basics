@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Width and Height</title>
+    <style>
+      .height-width-px {
+        width: 1000px;
+        background-color: aqua;
+        height: 300px;
+      }
+
+      .height-width-p {
+        width: 1000px;
+        background-color: grey;
+        height: 300px;
+      }
+
+      .height-width-percentage2 {
+        width: 50%;
+        background-color: green;
+        height: 250px;
+      }
+
+      .height-width-auto {
+        width: auto;
+        background-color: pink;
+        height: 300px;
+      }
+
+      .height-width-auto2 {
+        width: 1000px;
+        background-color: aqua;
+        height: 300px;
+      }
+
+      .height-width-auto3 {
+        width: auto;
+        background-color: gray;
+        height: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="height-width-px">I am giving height and width in px</div>
+
+    <div class="height-width-p">
+      <div class="height-width-percentage2">
+        In this scenario, I am using width in px for the outside div and inside
+        div I am using width in percentage. We require a parent div for using
+        percentage; otherwise, it takes the body width.
+      </div>
+    </div>
+
+    <div class="height-width-auto">
+      Giving width using auto. No parent available, that's why it's taking body
+      full width.
+    </div>
+
+    <div class="height-width-auto2">
+      <div class="height-width-auto3">
+        I am using auto width for child; it's taking width as per parent div.
+      </div>
+    </div>
+  </body>
+</html>
