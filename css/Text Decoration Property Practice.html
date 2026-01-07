@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text Decoration Property Practice</title>
+
+    <style>
+      .underline {
+        background-color: aqua;
+        font-size: 28px;
+        font-weight: 700;
+        width: 500px;
+        text-decoration: underline;
+        margin-top: 10px;
+      }
+
+      .overline {
+        background-color: gray;
+        font-size: 28px;
+        font-weight: 700;
+        width: 500px;
+        text-decoration: overline;
+        margin-top: 10px;
+      }
+
+      .line-through {
+        background-color: gray;
+        font-size: 28px;
+        font-weight: 700;
+        width: 500px;
+        text-decoration: line-through;
+        margin-top: 10px;
+      }
+
+      .none a {
+        display: inline-block;
+        background-color: gray;
+        font-size: 28px;
+        font-weight: 700;
+        text-decoration: none;
+        width: 500px;
+        margin-top: 10px;
+      }
+
+      .underline-overline {
+        background-color: pink;
+        width: 600px;
+        font-size: 28px;
+        font-weight: 700;
+        text-decoration: underline overline;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="underline">I am using text-decoration: underline</div>
+    <div class="overline">I am using text-decoration: overline</div>
+    <div class="line-through">I am using text-decoration: line-through</div>
+    <div class="none">
+      <a href="#">
+        I am using text-decoration: none (commonly used for links)
+      </a>
+    </div>
+    <div class="underline-overline">
+      I am using text-decoration: underline + overline
+    </div>
+  </body>
+</html>
